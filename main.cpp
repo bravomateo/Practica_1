@@ -286,6 +286,13 @@ void problema5(){
     int n,es_a,ch_a,es_l,ch_l;
     cout<<"Ingrese un numero impar: ";
     cin>>n;
+
+    if (n%2==0){
+        n++;
+        cout<<"El numero ingresado se aproximo a: "<<n<<endl;
+        cout<<endl;
+    }
+
     es_a = n/2;
     ch_a = 1;
     es_l = 1;
@@ -412,6 +419,13 @@ void problema15(){
     int dim,cnt=0,change=2,num=1,acu=1;
     cout<<"Ingrese un numero impar: ";
     cin>>dim;
+
+    if (dim%2==0){
+        dim++;
+        cout<<"El numero ingresado se aproximo a: "<<dim<<endl;
+        cout<<endl;
+    }
+
     while(cnt<(dim/2)){
         int cnt_2=0;
 
