@@ -260,9 +260,9 @@ void problema4(){
     cout << "Tiempo de duracion: ";
     cin >> y;
 
-    if ((x<2400) and ((x%100)<60))
+    if ((x<2400) && ((x%100)<60))
     {
-       if ((y<2400) and ((y%100)<60)){
+       if ((y<2400) && ((y%100)<60)){
           hourx = x/100;
           minx = x%100;
           houry = y/100;
