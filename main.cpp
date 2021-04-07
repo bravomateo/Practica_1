@@ -154,7 +154,7 @@ int main()
 int potencia(int b)
 {
     if (b==0){
-        return 0;
+        return 1; // Aunque 0^0 esta indefinido se lo toma 1 
         }
     int res = 1;
     for (int i=0;i<b;i++){
